@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UserEnter">
+    tools:context=".MainActivity">
     android:gravity
 
     <LinearLayout
@@ -13,9 +13,9 @@
         android:layout_height="match_parent"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        android:paddingTop="45"
-        android:paddingRight="0"
-        android:paddingBottom="45"
+        android:paddingTop="45dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="45dp"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="-42dp">
 
@@ -31,9 +31,9 @@
             android:id="@+id/UserName"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_marginLeft="50"
-            android:layout_marginTop="30"
-            android:layout_marginRight="50"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp"
             android:autoText="false"
             android:gravity="center_horizontal"
             android:text="TextView" />
@@ -42,9 +42,9 @@
             android:id="@+id/StartGame"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50"
-            android:layout_marginTop="70"
-            android:layout_marginRight="50"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="50dp"
             android:text="Enter Game" />
 
     </LinearLayout>
