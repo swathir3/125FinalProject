@@ -23,7 +23,8 @@ public class MainActivity extends AppCompatActivity {
     }
     // button set to open game class
     public void openGame() {
-        Intent intent = new Intent(this, NewGameActivity.class);
+        Intent intent = new Intent(this, BallActivity.class);
         startActivity(intent);
+        finish();
     }
 }
