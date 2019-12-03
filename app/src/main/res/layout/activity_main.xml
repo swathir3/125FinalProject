@@ -24,8 +24,9 @@
             android:layout_width="325dp"
             android:layout_height="60dp"
             android:autoText="false"
-            android:gravity="center_horizontal"
-            android:text="TextView" />
+            android:text="Creative Game Title"
+            android:textIsSelectable="false"
+            android:textSize="36sp" />
 
         <TextView
             android:id="@+id/UserName"
@@ -36,7 +37,9 @@
             android:layout_marginRight="50dp"
             android:autoText="false"
             android:gravity="center_horizontal"
-            android:text="TextView" />
+            android:text="Enter Your Name"
+            android:textIsSelectable="true"
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/StartGame"
@@ -45,7 +48,9 @@
             android:layout_marginLeft="50dp"
             android:layout_marginTop="70dp"
             android:layout_marginRight="50dp"
-            android:text="Enter Game" />
+            android:text="Enter Game"
+            android:textSize="36sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
