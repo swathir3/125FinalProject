@@ -20,11 +20,21 @@
         tools:layout_editor_absoluteY="-42dp">
 
         <TextView
+            android:id="@+id/text_view_countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="00:00"
+            android:textColor="@android:color/black"
+            android:textSize="40sp" />
+
+        <TextView
             android:id="@+id/GameTitle"
             android:layout_width="325dp"
-            android:layout_height="60dp"
+            android:layout_height="70dp"
             android:autoText="false"
-            android:text="Creative Game Title"
+            android:text="Where's Geoff-Dho"
             android:textIsSelectable="false"
             android:textSize="36sp" />
 
@@ -37,7 +47,7 @@
             android:layout_marginRight="50dp"
             android:autoText="false"
             android:gravity="center_horizontal"
-            android:text="Enter Your Name"
+            android:text="Game Description"
             android:textIsSelectable="true"
             android:textSize="24sp" />
 
@@ -45,12 +55,10 @@
             android:id="@+id/StartGame"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="70dp"
-            android:layout_marginRight="50dp"
             android:text="Enter Game"
             android:textSize="36sp"
             android:textStyle="bold" />
+
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
